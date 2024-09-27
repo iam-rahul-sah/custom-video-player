@@ -51,7 +51,7 @@ video.addEventListener("pause", updatePlayNPauseIcon);
 video.addEventListener("click", playNpauseFn);
 playNpauseBtn.addEventListener("click", playNpauseFn);
 rewindBtn.addEventListener("click", () => rewindNForwardFn('rewind'));
-rewindBtn.addEventListener("click", () => rewindNForwardFn('forward'));
+fastForwardBtn.addEventListener("click", () => rewindNForwardFn('forward'));
 video.addEventListener("volumechange", updateVolumeIcon);
 volumeBtn.addEventListener("click", muteAndUnmuteFn);
 video.addEventListener("timeupdate", updateProgress);
